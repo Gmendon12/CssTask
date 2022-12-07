@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <hr>
+    <span class="header">Your To-Do App</span>
+    <hr>
+
+    <div class="grid">
+        <div class="box1">
+            <h2>Header</h2>
+            <hr class="box1line">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus repellendus error officia veritatis, dolor amet? Dolorem minus eaque illum deserunt harum maxime ea, eligendi quae neque qui quas, aspernatur soluta!</p>
+        </div>
+
+        <div class="box2">
+            <center><h2>HTML List</h2></center>
+            <hr class="box2line">
+            <ol reversed start="5">
+                <li>
+                    <b>Box-1</b>
+                </li>
+                <li>
+                    <b>Box-2</b>
+                </li>
+                <li> <b>Box-3</b>
+                    <ul type="circle">
+                        <li>
+                            <b>Box-1</b>
+                        </li>
+                        <li>
+                            <b>Box-1</b>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="box3">
+            <h2>Registration Form</h2>
+            <hr class="box3line">
+
+            <form id="form" >
+                <label for="name"></label>
+                <input class="input" type="text" placeholder="Name" name="name"> 
+                
+                <label for="address"></label>
+                <input class="input" type="text" placeholder="Address" name="address"> 
+                 
+                <label for="mobile"></label>
+                <input class="input" type="tel" placeholder="Mobile No" name="mobile"> 
+                
+                <label for="email"></label>
+                <input class="input" type="email" name="email" placeholder="Email"> 
+    
+                <label for="optional"></label>
+                <input class="input" type="text" name="optional" placeholder="optional"> 
+
+                <button class="btn" type="submit"> Submit</button>
+            </form>
+            
+        </div>
+
+
+        <div class="box4">
+
+            <h2>Flex Items</h2>
+            <hr class="box4line">
+            <div class="flex">
+                <div class="box">Child Box</div>
+                <div class="box">Child Box</div>
+                <div class="box">Child Box</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
